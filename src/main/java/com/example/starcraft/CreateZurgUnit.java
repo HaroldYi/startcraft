@@ -17,6 +17,7 @@ public class CreateZurgUnit implements CreateUnit {
         Zurg zurg = new Zurg();
         zurg.setSeq(random.nextInt());
         zurg.setName("DRON");
+        zurg.setStatus("OK");
         zurg.characteristic();
 
         return zurg;
@@ -29,6 +30,7 @@ public class CreateZurgUnit implements CreateUnit {
         Terran terran = new Terran();
         terran.setSeq(random.nextInt());
         terran.setName("commandCentre");
+        terran.setStatus("OK");
         terran.characteristic();
 
         return terran;
@@ -40,6 +42,7 @@ public class CreateZurgUnit implements CreateUnit {
         Protoss protoss = new Protoss();
         protoss.setSeq(random.nextInt());
         protoss.setName("commandCentre");
+        protoss.setStatus("OK");
         protoss.characteristic();
 
         return protoss;
